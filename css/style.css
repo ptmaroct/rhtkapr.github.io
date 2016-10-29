@@ -1,0 +1,338 @@
+    .footz {
+      color: white;
+    }
+        .bluez  {
+      background-color: #175888;
+      color: white;
+    }
+    .address {
+      background-color: #7899b5;
+      color: white;
+    }
+
+    .atapata {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .btnz {
+      margin-top: 20px;
+    }
+    .dude {
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 0;
+      border-top: 3px solid #cec6c6;
+    }  
+    .logokec {
+      height: 146px;
+      margin: 10px auto;
+    }
+
+    .kecheading {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .space {
+        padding-bottom: 30px;
+    }
+
+    .aboutkec {
+      text-align: justify;
+      background-color: white;
+      padding: 20px;
+    }
+
+    .pl {
+      height: 70px;
+      margin-right: 20px;
+      display: inline;
+     /* background-color: #64b5f6;
+      padding: 10px;*/
+    }
+
+    .recr {
+      margin-bottom: 20px;
+      border: solid 2px white;
+      background-color: #4798d4;
+      color: white;
+    }
+
+    .rect {
+      margin: 9px;
+    }
+
+   /* .card2 {
+      height: 406px;
+    }*/
+
+    .mapz {
+      margin-top: 20px;
+      margin-left: 0px;
+      margin-right: 0px; 
+    }
+    .jagah {
+      margin-top: 25px;
+      background-color: #f2f2f2;
+    }
+
+    .jagahz {
+      margin: 25px auto;
+      background-color: #f2f2f2;
+    }
+
+    .beechme {
+      margin: auto;
+    }
+
+
+    .aadmi {
+      height: 319px;
+    }
+
+  
+
+    .events {
+      height: 286px;
+    }
+
+
+    .card-header {
+    padding: 2px 16px;
+    background-color: #175888;
+    color: white;
+    text-align: center;
+    }
+    .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+	}
+
+    .carousel-caption {
+        background-color: rgba(0,0,0,0.5);
+    }
+	.carousel-caption h3 {
+    color: #fff !important;
+
+	}
+
+	@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   		 }
+	}
+
+  @media (max-width: 766px){
+    .input-search {
+      display: inline;
+      width: 77%;
+    }
+
+    .atapata {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    .kech {
+      font-size: 40px;
+    }
+
+    .aadmi {
+      margin-top: 10px; 
+    }
+
+  }
+
+  @media (max-width: 1200px){
+    .aadmi {
+     
+      height: 277px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+  }
+
+  .header {
+    margin-top: 15px;
+  }
+
+    .card {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }
+    .card:hover {
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }   
+
+    .card {
+      margin-top: 10px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      background-clip: padding-box;
+      background-color: white;
+    }
+    .card span.card-title {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .card .card-image {
+      position: relative;
+      overflow: hidden;
+    }
+    .card .card-image img {
+      border-radius: 2px 2px 0 0;
+      background-clip: padding-box;
+      position: relative;
+      z-index: -1;
+    }
+    .card .card-image span.card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 16px;
+    }
+    .card .card-content {
+      padding: 16px;
+      border-radius: 0 0 2px 2px;
+      background-clip: padding-box;
+      box-sizing: border-box;
+    }
+    .card .card-content p {
+      margin: 0;
+      color: inherit;
+    }
+    .card .card-content span.card-title {
+      line-height: 48px;
+    }
+    .card .card-action {
+      border-top: 1px solid rgba(160, 160, 160, 0.2);
+      padding: 16px;
+    }
+    .card .card-action a {
+      color: #ffab40;
+      margin-right: 16px;
+      transition: color 0.3s ease;
+      text-transform: uppercase;
+    }
+    .card .card-action a:hover {
+      color: #ffd8a6;
+      text-decoration: none;
+    }
+
+
+
+    footer {
+      background-color: #175888;
+      padding: 25px;
+      border-top: 5px dashed; 
+      color: white;
+
+    }
+
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .slideanim {visibility:hidden;}
+    .slide {
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        visibility: visible;
+    }
+    @keyframes slide {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+      }
+    }
+    @-webkit-keyframes slide {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+      }
+    }
+
+
+    h1, h2, h3,h4 {
+      font-family: 'Roboto Condensed','Lato';
+    }
+
+    .kech {
+      font-size: 60px;
+    }
+
+    .last {
+      font-family: 'Roboto Condensed','Lato';
+      font-size: 20px;
+    }
+    p {
+      font-family: 'Lato', sans-serif;
+    }
+
+    .back-to-top {
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display:none;
+    }
+
+    .navb {
+      padding: 0;
+    }
+
+    #tashan {
+      border-radius: 0;
+      background-color: white;
+    }
+
+    #tashanz > .active > a {
+      color: #fff;
+      background-color: #61b2ef;
+    }
+
+    #tashanz{
+      font-family: 'Roboto Condensed';
+      font-size: larger;
+    }
+
+    #tashanz > a:hover {
+      color: #fff;
+      background-color: #61b2ef;
+    }
+
+    #tashanz > li.open > a {
+      color: #fff;
+      background-color: #61b2ef;
+    }
+
+    .parent { overflow: hidden; }
+    .parent .floatLeft {
+  # your other styles
+  float: left;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
