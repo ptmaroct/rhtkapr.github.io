@@ -1,4 +1,4 @@
-    .footz {
+-    .footz {
       color: white;
     }
         .bluez  {
@@ -331,8 +331,17 @@
 
     .parent { overflow: hidden; }
     .parent .floatLeft {
-  # your other styles
+
   float: left;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
+}
+
+#content {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
+-moz-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
+box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
 }
