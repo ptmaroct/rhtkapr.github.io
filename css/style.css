@@ -1,3 +1,7 @@
+	.quicklink {
+		padding: 10px 0px;
+		border-radius: 0;
+	}
     a.footer_link {
       color: white;
     }
@@ -204,7 +208,7 @@
       padding: 16px;
     }
     .card .card-content {
-      padding: 16px;
+      padding: 0;
       border-radius: 0 0 2px 2px;
       background-clip: padding-box;
       box-sizing: border-box;
@@ -212,6 +216,11 @@
     .card .card-content p {
       margin: 0;
       color: inherit;
+    }
+
+    .card-content .list-group-item {
+    	border-radius: 0;
+    	padding: 4px 9px;
     }
     .card .card-content span.card-title {
       line-height: 48px;
