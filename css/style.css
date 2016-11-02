@@ -1,8 +1,4 @@
-<<<<<<< HEAD
--    .footz {
-=======
     a.footer_link {
->>>>>>> b9fe1040b6565f549f54bf38d6dce647c3354999
       color: white;
     }
         .bluez  {
@@ -179,7 +175,6 @@
     }   
 
     .card {
-      margin-top: 10px;
       box-sizing: border-box;
       border-radius: 2px;
       background-clip: padding-box;
@@ -302,6 +297,7 @@
         bottom: 20px;
         right: 20px;
         display:none;
+        z-index: 1000;
     }
 
     .navb {
@@ -336,7 +332,6 @@
     .parent { overflow: hidden; }
     .parent .floatLeft {
 
-  float: left;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
 }
@@ -348,4 +343,9 @@
   -webkit-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
 -moz-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
 box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
+}
+
+#carousel {
+    padding-left: 0;
+    padding-right: 0;
 }
