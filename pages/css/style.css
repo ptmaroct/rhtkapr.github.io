@@ -1,4 +1,8 @@
--    .footz {
+	.quicklink {
+		padding: 10px 0px;
+		border-radius: 0;
+	}
+    a.footer_link {
       color: white;
     }
         .bluez  {
@@ -91,13 +95,6 @@
       height: 319px;
     }
 
-  
-
-    .events {
-      height: 286px;
-    }
-
-
     .card-header {
     padding: 2px 16px;
     background-color: #175888;
@@ -175,7 +172,6 @@
     }   
 
     .card {
-      margin-top: 10px;
       box-sizing: border-box;
       border-radius: 2px;
       background-clip: padding-box;
@@ -205,7 +201,7 @@
       padding: 16px;
     }
     .card .card-content {
-      padding: 16px;
+      padding: 0;
       border-radius: 0 0 2px 2px;
       background-clip: padding-box;
       box-sizing: border-box;
@@ -213,6 +209,11 @@
     .card .card-content p {
       margin: 0;
       color: inherit;
+    }
+
+    .card-content .list-group-item {
+    	border-radius: 0;
+    	padding: 4px 9px;
     }
     .card .card-content span.card-title {
       line-height: 48px;
@@ -298,6 +299,7 @@
         bottom: 20px;
         right: 20px;
         display:none;
+        z-index: 1000;
     }
 
     .navb {
@@ -332,7 +334,6 @@
     .parent { overflow: hidden; }
     .parent .floatLeft {
 
-  float: left;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
 }
@@ -344,4 +345,9 @@
   -webkit-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
 -moz-box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
 box-shadow: 10px 20px 32px -6px rgba(0,0,0,0.54);
+}
+
+#carousel {
+    padding-left: 0;
+    padding-right: 0;
 }
