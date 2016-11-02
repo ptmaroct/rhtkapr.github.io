@@ -1,8 +1,12 @@
-$(document).ready(function() {
-        // run test on initial page load
-        checkSize();
+//Here is the logic for auto dropdown on hover and scroll to top button
+//Blame Anuj Sharma if something is not working
 
-        // Slide in elements on scroll
+
+$(document).ready(function() {
+
+        checkSize(); //Check  width of browser window, needed from enabling auto dropdown on widescreen devices
+
+        // Slide in cards on scroll
         $(window).scroll(function() {
           $(".slideanim").each(function(){
             var pos = $(this).offset().top;
@@ -14,6 +18,7 @@ $(document).ready(function() {
           });
         });
 
+        //Show or hide scroll to top button on the basis of current position
         $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
                     $('#back-to-top').fadeIn();
@@ -21,6 +26,7 @@ $(document).ready(function() {
                     $('#back-to-top').fadeOut();
                 }
             });
+
             // scroll body to 0px on click
             $('#back-to-top').click(function () {
                 $('#back-to-top').tooltip('hide');
@@ -33,13 +39,11 @@ $(document).ready(function() {
             $('#back-to-top').tooltip('show');
     });
 
-    //Function to the css rule
+    //Check the screen width and enable auto dropdown if needed
     function checkSize(){
     	var width = $(window).width();
 
-    	    if (width > 768) {
-        //Do Something
-
+        if (width > 768) {
         $(function(){
     	$(".dropdown").hover(            
             function() {
@@ -56,7 +60,7 @@ $(document).ready(function() {
     }
     }
 
-
+    // Configuration for Placement Image Companies Slider
      $(document).ready(function(){
       $('.slick-slider').slick({
           dots: false,
