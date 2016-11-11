@@ -1,0 +1,46 @@
+<div class="row">
+    	<div class="col-md-3 col-sm-6 col-xs-12">
+    		<div class="thumbnail">
+    			<img class="faculty" src=>
+    			<div class="caption">
+    			<a href="#"><h3></h3></a>
+    			<b><p></p></b>
+    			<p>B.Tech, M.Tech., Ph.D</p>
+    			<p> Years Academics</p>
+    		</div>
+    		</div>
+    	</div>
+    	<div class="col-md-3 col-sm-6 col-xs-12">
+    		<div class="thumbnail">
+    			<img class="faculty" src=>
+    			<div class="caption">
+    			<a href="#"><h3></h3></a>
+    			<b><p></p></b>
+    			<p>B.Tech, M.Tech., Ph.D</p>
+    			<p> Years Academics</p>
+    		</div>
+    		</div>
+    	</div>
+    	<div class="col-md-3 col-sm-6 col-xs-12">
+    		<div class="thumbnail">
+    			<img class="faculty" src=>
+    			<div class="caption">
+    			<a href="#"><h3></h3></a>
+    			<b><p></p></b>
+    			<p>B.Tech, M.Tech., Ph.D</p>
+    			<p> Years Academics</p>
+    		</div>
+    		</div>
+    	</div>
+    	<div class="col-md-3 col-sm-6 col-xs-12">
+    		<div class="thumbnail">
+    			<img class="faculty" src=>
+    			<div class="caption">
+    			<a href="#"><h3></h3></a>
+    			<b><p></p></b>
+    			<p>B.Tech, M.Tech., Ph.D</p>
+    			<p> Years Academics</p>
+    		</div>
+    		</div>
+    	</div>
+</div>
