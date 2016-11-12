@@ -2,7 +2,12 @@
 		padding: 10px 0px;
 		border-radius: 0;
 	}
-
+.thumbnail img.faculty {
+    	    height: 256px;
+    	}
+.dropdown-menu>li>a {
+  font-size: 16px;
+}
   .tab-pane {
     overflow-x: auto;
   }
