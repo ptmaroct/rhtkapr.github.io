@@ -2,6 +2,9 @@
 		padding: 10px 0px;
 		border-radius: 0;
 	}
+  .carousel-inner>.item>img {
+  height: 307px;
+}
 .thumbnail img.faculty {
     	    height: 256px;
     	}
