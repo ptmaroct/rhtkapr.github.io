@@ -4,9 +4,6 @@
 .dropdown-menu>li>a {
   font-size: 16px;
 }
-#tashan{
-	background-color: #4798d4;
-}
 
 .carousel-inner>.item>img {
 	height: 300px;
@@ -333,7 +330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', end
 
     #tashan {
       border-radius: 0;
-      background-color: white;
+      background-color: #4798d4;
       border: 0;
 
     }
