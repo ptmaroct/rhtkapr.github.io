@@ -1,5 +1,12 @@
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
 .dropdown-menu>li>a {
   font-size: 16px;
+}
+
+.carousel-inner>.item>img {
+	height: 300px;
 }
 
 	.quicklink {
@@ -22,7 +29,7 @@ background: radial-gradient(ellipse at center, rgba(73,165,191,1) 0%, rgba(73,16
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#175888', GradientType=1 );
     }
     .address {
-      background-color: #7899b5;
+      background-color: #4798d4;
       color: white;
     }
 
