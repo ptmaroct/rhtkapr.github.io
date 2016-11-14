@@ -5,6 +5,12 @@
   .carousel-inner>.item>img {
   height: 307px;
 }
+
+@media (max-width: 425px){
+  .carousel-inner>.item>img {
+  height: 240px;
+  }
+}
 .thumbnail img.faculty {
     	    height: 256px;
     	}

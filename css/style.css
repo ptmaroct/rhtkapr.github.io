@@ -9,6 +9,12 @@
 	height: 300px;
 }
 
+@media (max-width: 425px){
+  .carousel-inner>.item>img {
+  height: 240px;
+  }
+}
+
 	.quicklink {
 		padding: 10px 0px;
 		border-radius: 0;
