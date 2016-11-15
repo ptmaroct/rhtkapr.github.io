@@ -1,3 +1,13 @@
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-toggle {
+  background-color: white;
+}
 	.quicklink {
 		padding: 10px 0px;
 		border-radius: 0;
@@ -26,6 +36,14 @@
         .bluez  {
       background-color: #175888;
       color: white;
+      background: rgba(73,165,191,1);
+      background: -moz-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(73,165,191,1) 38%, rgba(53,135,169,1) 58%, rgba(23,88,136,1) 89%);
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,165,191,1)), color-stop(38%, rgba(73,165,191,1)), color-stop(58%, rgba(53,135,169,1)), color-stop(89%, rgba(23,88,136,1)));
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(73,165,191,1) 38%, rgba(53,135,169,1) 58%, rgba(23,88,136,1) 89%);
+      background: -o-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(73,165,191,1) 38%, rgba(53,135,169,1) 58%, rgba(23,88,136,1) 89%);
+      background: -ms-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(73,165,191,1) 38%, rgba(53,135,169,1) 58%, rgba(23,88,136,1) 89%);
+      background: radial-gradient(ellipse at center, rgba(73,165,191,1) 0%, rgba(73,165,191,1) 38%, rgba(53,135,169,1) 58%, rgba(23,88,136,1) 89%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#175888', GradientType=1 );
     }
     .address {
       background-color: #7899b5;
@@ -301,6 +319,9 @@
 
     .kech {
       font-size: 60px;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
     }
 
     .last {
@@ -325,8 +346,9 @@
     }
 
     #tashan {
+      border: 0;
       border-radius: 0;
-      background-color: white;
+      background-color: #4798d4;
     }
 
     #tashanz > .active > a {
