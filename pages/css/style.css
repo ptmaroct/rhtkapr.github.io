@@ -124,6 +124,7 @@
 
     .beechme {
       margin: auto;
+      height: 150px;
     }
 
 
@@ -312,9 +313,13 @@
       }
     }
 
-
+  
     h1, h2, h3,h4 {
       font-family: 'Roboto Condensed','Lato';
+    }
+
+    #content  h2 {
+      color: #2d7ba0;
     }
 
     .kech {
